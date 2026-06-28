@@ -4,7 +4,7 @@ A single landing page that links out to my resume, GitHub repos, and project
 dashboards — built so anyone reviewing my work has one link instead of
 digging through multiple repos.
 
-**Live site:** [add your deployed link here once hosted]
+**Live site:** https://aseajm-portfolio.vercel.app/
 
 ---
 
