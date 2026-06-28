@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# Asef Ajmain — Portfolio Hub
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A single landing page that links out to my resume, GitHub repos, and project
+dashboards — built so anyone reviewing my work has one link instead of
+digging through multiple repos.
 
-## Available Scripts
+**Live site:** [add your deployed link here once hosted]
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## What's on the site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **About** — quick summary of my background and focus (Information Systems,
+  Business Analysis, Drexel University)
+- **Projects** — case studies for my two BA portfolio projects:
+  - **AseFinTech** — HR onboarding optimization (Stakeholder Analysis, Gap
+    Analysis, RTM, SQL, Python, Tableau dashboard)
+  - **Bites&Co** — food delivery app optimization (process maps, functional
+    requirements, SQL, Power BI dashboard)
+- **Skills** — a register-style table of tools and where I've used them
+- **Experience** — Estee Lauder co-op and Senior Project (AI Trading Card
+  Grader)
+- **Education** — Drexel University, BS Information Systems
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+---
 
-### `npm test`
+## Tech stack
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- Plain CSS (no framework)
 
-### `npm run build`
+---
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Project structure
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+portfolio-hub/
+├── public/
+│   ├── Asef_Ajmain_Resume.pdf
+│   ├── Moon Restaurant User Behavior Analysis.pdf
+│   └── AseFinTech_Dashboard.pdf / .twb
+├── src/
+│   ├── App.jsx
+│   ├── Header.jsx
+│   ├── About.jsx
+│   ├── ProjectCard.jsx
+│   ├── SkillsRegister.jsx
+│   ├── Experience.jsx
+│   ├── Education.jsx
+│   ├── Footer.jsx
+│   ├── index.js
+│   └── styles.css
+└── README.md
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Running locally
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```
+npm install
+npm start
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Runs at `http://localhost:3000`.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+---
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+## Author
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+**Asef Ajmain**
+Information Systems — Drexel University
+[LinkedIn](https://linkedin.com/in/aseajm) · [GitHub](https://github.com/ase-ajm)
