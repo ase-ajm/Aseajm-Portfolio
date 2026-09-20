@@ -12,7 +12,7 @@ function Education() {
       <div className="education-entry">
         <div className="experience-header">
           <h3>Drexel University</h3>
-          <span className="experience-dates">Expected September 2026</span>
+          <span className="experience-dates"> September 2026</span>
         </div>
         <p className="experience-role">Bachelor of Science in Information Systems, Minor in Business Administration</p>
         <div className="coursework-tags">

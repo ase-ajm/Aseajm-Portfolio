@@ -4,7 +4,7 @@ function About() {
       <h2 className="section-heading">About</h2>
       <p>
         I am an Information Systems senior at Drexel University, minoring in 
-        Business Administration and graduating in September 2026. My background 
+        Business Administration and graduated in September 2026. My background 
         bridges technical execution and structured business strategy. I write SQL 
         and Python, build data dashboards in Tableau and Power BI, and deliver the 
         business requirements, stakeholder maps, and gap analyses that transform complex 

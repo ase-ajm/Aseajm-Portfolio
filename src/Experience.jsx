@@ -17,7 +17,7 @@ function Experience() {
       <div className="experience-entry">
         <div className="experience-header">
           <h3>AI Trading Card Grader — Senior Project</h3>
-          <span className="experience-dates">Sept 2025 – Present</span>
+          <span className="experience-dates">Sept 2025 – May 2026 </span>
         </div>
         <p className="experience-role">Front End Web Developer</p>
         <ul>
