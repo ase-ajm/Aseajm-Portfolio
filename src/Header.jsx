@@ -18,7 +18,7 @@ function Header() {
           stakeholder maps, requirements, and dashboards that hold up in a room
           full of people who disagree.
         </h1>
-        <p className="hero-status">Drexel IS, Sept 2026 — open to BA internships and entry level roles</p>
+        <p className="hero-status">Drexel IS, Sept 2026 — open to BA and DA entry level roles</p>
         <div className="hero-links">
           <a href="https://github.com/ase-ajm" target="_blank" rel="noopener noreferrer">GitHub</a>
           <a href="https://linkedin.com/in/aseajm" target="_blank" rel="noopener noreferrer">LinkedIn</a>
